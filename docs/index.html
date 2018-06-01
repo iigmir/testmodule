@@ -28,5 +28,8 @@
     </table>
     <p id="num"></p>
     <script src="app.js" type="module"></script>
+    <script nomodule>
+        document.querySelector("#num").innerHTML = "Sorry, your browser doesn't support ES module.";
+    </script>
 </body>
 </html>
